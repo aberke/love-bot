@@ -86,8 +86,6 @@ class LoveBot:
                     lover2 = screen_name_list[i + 1]
                     lover_pair = (lover1, lover2)
                     lover_pairs.append(lover_pair)
-                else:
-                    orphaned_lovers.append(lover1)
                 i += 2
         return lover_pairs
 
