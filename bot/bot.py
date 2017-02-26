@@ -22,6 +22,7 @@ class LoveBot:
     def __init__(self):
         self.api = self.get_api_connection()
 
+
     def get_api_connection(self):
         auth = tweepy.OAuthHandler(TWITTER_API_CONSUMER_KEY, TWITTER_API_CONSUMER_SECRET)
         auth.set_access_token(TWITTER_API_ACCESS_TOKEN, TWITTER_API_ACCESS_TOKEN_SECRET)

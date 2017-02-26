@@ -1,6 +1,14 @@
+l0V3 Bot
+--
 
+https://twitter.com/lovebot_2000
 
+People use technology to find love.  With Grindr, Tinder, Bumble, people relentlessly swiping away the days.  These apps connect people in a common geographic location, all desperately looking for love.  As technologists it is duty to make this more efficient.
 
+Love Bot 2000 automates the creation of lifelong connections via the twittersphere for users.  
+It connects people who are near eachother and like Neil Degrasse Tyson ...(or other celebrities) by crawling their tweets and relentless tweeting intros @ potential soul males who have retweeted the same tweet and are geographically close.  This bot instigates love for people, regardless of whether they're searching for it, separated in age by 50 years, or are in commited relationships.
+
+This is love in the digital age.
 
 Running Locally
 ---
