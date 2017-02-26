@@ -32,14 +32,14 @@ class LoveBot:
     def handle_celebrity(self, celeb_username, hours_recent=48):
         """ Handle celeb tweets made in the last 'hours_recent' hours """
         tweets = self.get_filtered_tweets(celeb_username, hours_recent)
-        print('handling celebrity with filtered tweets:', len(tweets))
+        print("handling celeb tweets:", celeb_username, len(tweets))
         for tweet in tweets:
             tweet_url = twitter_util.get_tweet_url(celeb_username, tweet)
             # Get list of tuples of screen names to tweet at
             lover_pairs = self.get_retweet_lover_pairs(tweet)
             # shorten the list of lover_pairs to avoid overtweeting
             lover_pairs = lover_pairs[:MAX_LOVE_TWEETS_PER_TWEET]
-            print('found lover pairs:', len(lover_pairs))
+            print("found lover pairs:", len(lover_pairs))
 
             for (lover_username1, lover_username2) in lover_pairs:
                 # Tweet @ them
