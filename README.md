@@ -10,10 +10,20 @@ It connects people who are near eachother and like Neil Degrasse Tyson... (or ot
 
 This is love in the digital age.
 
+
+Success Story
+---
+
 <img width="600px" src="https://raw.githubusercontent.com/aberke/love-bot/master/static/love-connection-screenshot.png" />
 
 
-This was created as the 2017 Stupid Hackathon in NYC.
+User Testimonials
+----
+
+"It was love at first follow" - Neil deGrasse Tyson fan and retweeter
+
+"She followed me, and then I followed her, we tweeted @ each other and then DMed... it was history from there..." - Science enthuiast and Bill Nye retweeter
+
 
 
 Running Locally
@@ -39,3 +49,6 @@ export TWITTER_API_ACCESS_TOKEN_SECRET=""
 ```
 $ python runner.py
 ```
+
+
+Made with <3 @ the 2017 Stupid Hackathon in NYC.

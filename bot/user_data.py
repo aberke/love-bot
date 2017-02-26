@@ -18,12 +18,48 @@ SCIENCE_TWEETS = [
     )
 ]
 
+
 USER_DATA = {
     "jennschiffer": {
         "tweet_templates": [(
             "Hey @{lover_username1} @{lover_username2}! You both RTed this?? "
             "Jenn seems rad. You three should fall in love. I'm a bot."
             " {tweet_url}"
+        ), (
+            "Hey @{lover_username1} @{lover_username2} - "
+            "You both think Jenn is cool? I'll let you two take it from here.."
+            " This isn't Jenn. {tweet_url}"
+        ), (
+            "Hey @{lover_username1} @{lover_username2}\n"
+            "Roses are red\n"
+            "Violets are blue\n"
+            "You both RT'd this\n"
+            "Here's an internet intro for you\n"
+            "{tweet_url}"
+        )]
+    },
+    # # Abbi from Broad City
+    "abbijacobson": {
+        "tweet_templates": [(
+            "Hey @{lover_username1} @{lover_username2}! You both RTed this?? "
+            "Abbi is rad. You three should fall in love. I won't tell Ilana."
+            " {tweet_url}"
+        ), (
+            "Hey @{lover_username1} @{lover_username2} - "
+            "You both RT'd this? Ya I'm a bot. "
+            "Still, you might have more in common that an "
+            "appreciation for Abbi.. {tweet_url}"
+        ), (
+            "Hey @{lover_username1} @{lover_username2} - "
+            "Ya Abbi is cool I'll let you two take it from here.."
+            " This is a bot. {tweet_url}"
+        ), (
+            "Hey @{lover_username1} @{lover_username2}\n"
+            "Roses are red\n"
+            "Violets are blue\n"
+            "You both RT'd Abbi\n"
+            "Here's an internet intro for you\n"
+            "{tweet_url}"
         )]
     },
     "neiltyson": {
@@ -31,12 +67,5 @@ USER_DATA = {
     },
     "BillNye": {
         "tweet_templates": SCIENCE_TWEETS,
-    },
-    "AlexandraBerke": {
-        "tweet_templates": [(
-            "Hey @{lover_username1} @{lover_username2}! You both RTed this?? "
-            "Alex seems rad. You three should fall in love. I'm a bot."
-            " {tweet_url}"
-        )]
     }
 }
