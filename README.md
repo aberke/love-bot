@@ -10,7 +10,7 @@ It connects people who are near eachother and like Neil Degrasse Tyson ...(or ot
 
 This is love in the digital age.
 
-<img width="400px" src="https://raw.githubusercontent.com/aberke/love-bot/master/static/love-connection-screenshot.png" />
+<img width="600px" src="https://raw.githubusercontent.com/aberke/love-bot/master/static/love-connection-screenshot.png" />
 
 
 Running Locally
