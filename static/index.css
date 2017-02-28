@@ -1,0 +1,174 @@
+/*
+
+Style Notes
+---
+
+Palette:
+
+- maroon color: #8c0f2f
+
+- yellow: #FDD017;
+
+Background color: #E0FFFF;
+
+Twitter Dark Blue
+#0084b4
+
+White
+Hex: #ffffff
+
+*/
+
+
+body {
+
+	/*clear*/
+	padding: 0;
+	margin: 0;
+
+	background-color: #E0FFFF;
+
+	/*
+	Main font for descriptions.
+	Mess around with font-weight.
+	*/
+
+	/*More robotic:*/
+	/*font-family: 'Oswald', sans-serif;*/
+
+	/*Less robotic*/
+	font-family: 'Kanit', sans-serif;
+
+}
+
+a {
+	cursor: pointer;
+	color: #0084b4;
+}
+
+.is-bot {
+	color: #8c0f2f;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}
+
+hr {
+	color: #8c0f2f;
+	border: 1px solid #8c0f2f;
+	width: 50%;
+	min-width: 200px;
+}
+
+/* ---------------------------
+*  Fonts
+*/
+body {
+	/*
+	Main font for descriptions.
+	Mess around with font-weight.
+	*/
+
+	/*More robotic:*/
+	/*font-family: 'Oswald', sans-serif;*/
+
+	/*Less robotic*/
+	font-family: 'Kanit', sans-serif;
+}
+
+.cursive {
+	font-family: 'Lobster', cursive;
+	color: #8c0f2f;
+}
+
+/* Fonts
+/* --------------------------- */
+
+header {
+	text-align: center;
+}
+
+section {
+	margin-top: 20px;
+	margin-bottom: 60px;
+	color: #8c0f2f;
+}
+
+#title {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	font-size: 100px;
+	padding: 0 30px;
+	border-bottom: 4px solid #FDD017;
+}
+
+.sub-title {
+	margin: auto;
+	text-align: center;
+	font-size: 70px;
+
+}
+
+.apply-btn {
+	border: 1px solid black;
+	border-radius: 9px;
+	padding: 10px;
+
+	border: 1px solid #8c0f2f;
+	color: #8c0f2f;
+	text-decoration: none;
+
+	/*it follows you*/
+	position: fixed;
+	top: 40px;
+	right: 10px;
+}
+
+#content {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+#long-description img {
+	float: left;
+	margin: 5px 15px 5px 0;
+	max-width: 100px;
+}
+
+#short-description {
+	text-align: center;
+	font-size: 20px;
+}
+#short-description p {
+	margin: 0;
+}
+#short-description .is-bot {
+	margin-top: 25px;
+}
+
+#proof a {
+	display: block;
+	text-align: center;
+}
+
+#proof img {
+    width: auto;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
