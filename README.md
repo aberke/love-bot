@@ -5,8 +5,7 @@ https://twitter.com/lovebot_2000
 
 People use technology to find love.  With Grindr, Tinder, Bumble, people are relentlessly swiping away the days.  These apps connect people in a common geographic location, all desperately looking for love.  As technologists it is duty to make this more efficient.
 
-Love Bot 2000 automates the creation of lifelong connections via the twittersphere for users.  
-It connects people who are near eachother and like Neil Degrasse Tyson... (or other celebrities) by crawling their tweets and relentless tweeting intros @ potential soul males who have retweeted the same tweet and are geographically close.  This bot instigates love for people, regardless of whether they're searching for it, separated in age by 50 years, or are in commited relationships.
+Love Bot 2000 is disrupting dating and automating the creation of lifelong connections via the twittersphere.  It crawls the tweets of celebrities like Neil Degrasse Tyson, finds people that retweeted their same tweet and are geographically near each other, and then relentlessly tweets intros @ these potential soul mates.  This bot instigates love for people, regardless of whether they're searching for it, separated in age by 50 years, or are in commited relationships.
 
 This is love in the digital age.
 
@@ -20,10 +19,37 @@ Success Story
 User Testimonials
 ----
 
-"It was love at first follow" - Neil deGrasse Tyson fan and retweeter
 
-"She followed me, and then I followed her, we tweeted @ each other and then DMed... it was history from there..." - Science enthuiast and Bill Nye retweeter
+```
+"It was love at first follow"
+```  
+   -- Neil deGrasse Tyson fan and retweeter
 
+
+```
+"She followed me, and then I followed her, we tweeted @ each other and then DMed...
+it was history from there..."
+```
+   -- Science enthuiast and Bill Nye retweeter
+
+
+
+
+Do you have an ideas for great intro lines or celebs whose tweets can inspire love?
+-------
+
+Let us know!
+
+* Email an idea to alex@aberke.com
+OR
+* Make a PR [here](https://github.com/aberke/love-bot/blob/master/bot/celeb_data.py):
+
+
+
+Are other pull requests welcome?
+-----
+
+Yes Please
 
 
 Running Locally
@@ -49,6 +75,8 @@ export TWITTER_API_ACCESS_TOKEN_SECRET=""
 ```
 $ python runner.py
 ```
+
+
 
 
 Made with <3 @ the 2017 Stupid Hackathon in NYC.

@@ -5,7 +5,7 @@ import time
 import tweepy
 
 from bot import twitter_util
-from bot.user_data import USER_DATA
+from bot.celeb_data import CELEB_DATA
 
 
 TWITTER_API_CONSUMER_KEY = os.environ["TWITTER_API_CONSUMER_KEY"]
@@ -33,14 +33,14 @@ class LoveBot:
         return tweepy.API(auth)
 
 
-    def handle_celebrity(self, celeb_username, hours_recent=24):
+    def handle_celebrity(self, celeb_username, hours_recent=HOURS_RECENT):
         """ Handle celeb tweets made in the last 'hours_recent' hours """
-        if not (celeb_username in USER_DATA and
-                (TWEET_TEMPLATES_KEY in USER_DATA[celeb_username])):
+        if not (celeb_username in CELEB_DATA and
+                (TWEET_TEMPLATES_KEY in CELEB_DATA[celeb_username])):
                 print("Error: No user data for {}".format(celeb_username))
                 return
 
-        tweet_templates = USER_DATA[celeb_username][TWEET_TEMPLATES_KEY]
+        tweet_templates = CELEB_DATA[celeb_username][TWEET_TEMPLATES_KEY]
 
         tweets = self.get_filtered_tweets(celeb_username, hours_recent)
         print("@{}: handling {} tweets".format(celeb_username, len(tweets)))
