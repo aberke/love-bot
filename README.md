@@ -1,7 +1,9 @@
 l0V3 Bot
 --
 
-https://twitter.com/lovebot_2000
+Landing Page: http://l0v3bot.com
+
+On Twitter: https://twitter.com/lovebot_2000
 
 People use technology to find love.  With Grindr, Tinder, Bumble, people are relentlessly swiping away the days.  These apps connect people in a common geographic location, all desperately looking for love.  As technologists it is duty to make this more efficient.
 
@@ -13,7 +15,7 @@ This is love in the digital age.
 Success Story
 ---
 
-<img width="600px" src="https://raw.githubusercontent.com/aberke/love-bot/master/static/love-connection-screenshot.png" />
+<img width="600px" src="https://raw.githubusercontent.com/aberke/love-bot/master/static/img/love-connection-screenshot.png" />
 
 
 User Testimonials
