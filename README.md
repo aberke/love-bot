@@ -27,7 +27,7 @@ User Testimonials
 
 
 ```
-"She followed me, and then I followed her, we tweeted @ each other and then DMed...
+"She followed me, then I followed her, we tweeted @ each other and then DMed...
 it was history from there..."
 ```
    -- Science enthuiast and Bill Nye retweeter
@@ -42,7 +42,7 @@ Let us know!
 
 * Email an idea to alex@aberke.com
 OR
-* Make a PR [here](https://github.com/aberke/love-bot/blob/master/bot/celeb_data.py):
+* Make a PR [here](https://github.com/aberke/love-bot/blob/master/bot/celeb_data.py)
 
 
 
