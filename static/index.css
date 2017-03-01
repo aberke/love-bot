@@ -15,12 +15,16 @@ Twitter Dark Blue: #0084b4
 
 */
 
+html {
+	width: 100%;
+}
 
 body {
 
 	/*clear*/
 	padding: 0;
 	margin: 0;
+	width: 100%;
 
 	background-color: #E0FFFF;
 }
@@ -89,7 +93,6 @@ section {
 	margin: auto;
 	text-align: center;
 	font-size: 70px;
-
 }
 
 .apply-btn {
@@ -108,6 +111,8 @@ section {
 }
 
 #content {
+	/*handle mobile*/
+	width: auto;
     max-width: 900px;
     margin: auto;
     padding: 30px;
@@ -136,8 +141,6 @@ section {
 
 section#testimonials {
 	border-top: 3px solid #FDD017;
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: center;
 }
 
@@ -172,7 +175,8 @@ section#testimonials {
 }
 
 #proof img {
-    width: auto;
+	/*width mobile friendly */
+    width: 95%; 
     max-width: 800px;
     margin: auto;
     display: block;
@@ -202,6 +206,8 @@ section#testimonials {
 }
 
 footer {
+	width: auto;
+
 	padding: 40px;
 	background-color: #8c0f2f;
 	border-top: 4px solid #FDD017;
@@ -210,4 +216,26 @@ footer {
 }
 footer a {
 	color: #FDD017;
+}
+
+
+@media (max-width: 800px) {
+	#title, .sub-title {
+		font-size: 45px;
+	}
+
+	#apply-btn-container {
+		display: block;
+		padding: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.apply-btn {
+		position: inherit;
+		display: inline-block;
+		font-size: 12px;
+		padding: 5px;
+		border-style: dotted;
+	}
+
 }
