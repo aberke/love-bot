@@ -54,6 +54,14 @@ Are other pull requests welcome?
 Yes Please
 
 
+Development
+---
+
+* Bot: The `runner` process is running daily on heroku as l0v3-bots via the heroku scheduler.
+
+* Landing page hosted by Github Pages.
+
+
 Running Locally
 ---
 
