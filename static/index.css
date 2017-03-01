@@ -1,0 +1,213 @@
+/*
+
+Style Notes
+---
+
+Palette:
+
+Maroon color: #8c0f2f
+
+Yellow: #FDD017;
+
+Background color: #E0FFFF;
+
+Twitter Dark Blue: #0084b4
+
+*/
+
+
+body {
+
+	/*clear*/
+	padding: 0;
+	margin: 0;
+
+	background-color: #E0FFFF;
+}
+
+a {
+	cursor: pointer;
+	color: #0084b4;
+}
+
+.is-bot {
+	color: #8c0f2f;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}
+
+hr {
+	color: #8c0f2f;
+	border: 1px solid #8c0f2f;
+	width: 50%;
+	min-width: 200px;
+}
+
+/* ---------------------------
+*  Fonts
+*/
+body {
+	/*
+	Main font for descriptions.
+	Mess around with font-weight.
+	*/
+
+	font-family: 'Kanit', sans-serif;
+}
+
+.cursive {
+	font-family: 'Lobster', cursive;
+	color: #8c0f2f;
+}
+
+/* Fonts
+/* --------------------------- */
+
+header {
+	text-align: center;
+}
+
+section {
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	color: #8c0f2f;
+	border-top: 1px dashed #8c0f2f;
+}
+
+#title {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	font-size: 100px;
+	padding: 0 30px;
+	border-bottom: 4px solid #FDD017;
+}
+
+.sub-title {
+	margin: auto;
+	text-align: center;
+	font-size: 70px;
+
+}
+
+.apply-btn {
+	border: 1px solid black;
+	border-radius: 9px;
+	padding: 10px;
+
+	border: 1px solid #8c0f2f;
+	color: #8c0f2f;
+	text-decoration: none;
+
+	/*it follows you*/
+	position: fixed;
+	top: 40px;
+	right: 10px;
+}
+
+#content {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+#short-description {
+	text-align: center;
+	font-size: 20px;
+	border: none;
+}
+#short-description p {
+	margin: 0;
+}
+#short-description .is-bot {
+	margin-top: 25px;
+}
+
+#long-description img {
+	float: left;
+	margin: 5px 15px 5px 0;
+	max-width: 100px;
+}
+#long-description p {
+	margin-top: 0;
+}
+
+section#testimonials {
+	border-top: 3px solid #FDD017;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#testimonials .sub-title {
+	padding: 0 20px;
+	display: inline-block;
+	border-bottom: 1px dashed darkred;
+}
+
+.testimonial-container {
+    width: auto;
+    max-width: 550px;
+    margin: 40px auto;
+    margin-top: 60px;
+}
+.testimonial-container .quote {
+	margin: 0;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+.testimonial-container .quote-citation {
+	display: block;
+	margin: 10px auto;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+#proof a {
+	display: block;
+	text-align: center;
+}
+
+#proof img {
+    width: auto;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #FDD017;
+}
+
+#celeb-application {
+	text-align: center;
+}
+#celeb-application .sub-title {
+	display: inline-block;
+	padding: 0 20px;
+	border-bottom: 3px solid #FDD017;
+}
+
+#celeb-application-description {
+	margin: 40px 0;
+}
+#celeb-application-description p {
+	text-align: center;
+	margin: 2px;
+}
+
+#celeb-application-form-container {
+	text-align: center;
+}
+
+footer {
+	padding: 40px;
+	background-color: #8c0f2f;
+	border-top: 4px solid #FDD017;
+	color: #FDD017;
+	text-align: center;
+}
+footer a {
+	color: #FDD017;
+}
