@@ -20,24 +20,6 @@ SCIENCE_TWEETS = [
 
 
 CELEB_DATA = {
-    # "jennschiffer": {
-    #     "tweet_templates": [(
-    #         "Hey @{lover_username1} @{lover_username2}! You both RTed this?? "
-    #         "Jenn seems rad. You three should fall in love. I'm a bot."
-    #         " {tweet_url}"
-    #     ), (
-    #         "Hey @{lover_username1} @{lover_username2} - "
-    #         "You both think Jenn is cool? I'll let you two take it from here.."
-    #         " This isn't Jenn. {tweet_url}"
-    #     ), (
-    #         "Hey @{lover_username1} @{lover_username2}\n"
-    #         "Roses are red\n"
-    #         "Violets are blue\n"
-    #         "You both RT'd this\n"
-    #         "Here's an internet intro for you\n"
-    #         "{tweet_url}"
-    #     )]
-    # },
     # Abbi from Broad City
     "abbijacobson": {
         "tweet_templates": [(
@@ -62,10 +44,29 @@ CELEB_DATA = {
             "{tweet_url}"
         )]
     },
+    # Science nerds <3
     "neiltyson": {
         "tweet_templates": SCIENCE_TWEETS
     },
     "BillNye": {
         "tweet_templates": SCIENCE_TWEETS,
-    }
+    },
+    # "jennschiffer": {
+    #     "tweet_templates": [(
+    #         "Hey @{lover_username1} @{lover_username2}! You both RTed this?? "
+    #         "Jenn seems rad. You three should fall in love. I'm a bot."
+    #         " {tweet_url}"
+    #     ), (
+    #         "Hey @{lover_username1} @{lover_username2} - "
+    #         "You both think Jenn is cool? I'll let you two take it from here.."
+    #         " This isn't Jenn. {tweet_url}"
+    #     ), (
+    #         "Hey @{lover_username1} @{lover_username2}\n"
+    #         "Roses are red\n"
+    #         "Violets are blue\n"
+    #         "You both RT'd this\n"
+    #         "Here's an internet intro for you\n"
+    #         "{tweet_url}"
+    #     )]
+    # },
 }
