@@ -10,9 +10,6 @@ SCIENCE_TWEETS = [
         "To go on a date\n"
         " {tweet_url}"
     ), (
-        "Hey @{lover_username1} @{lover_username2} your cosmic fandom for "
-        "science and Tyson might imply a bit more chemistry {tweet_url}"
-    ), (
         "Hey @{lover_username1} @{lover_username2} the world is 197 million sq"
         " miles but the same tweet brought you two together {tweet_url}"
     )
@@ -46,10 +43,16 @@ CELEB_DATA = {
     },
     # Science nerds <3
     "neiltyson": {
-        "tweet_templates": SCIENCE_TWEETS
+        "tweet_templates": [(
+            "Hey @{lover_username1} @{lover_username2} your cosmic fandom for "
+            "science and Tyson might imply a bit more chemistry {tweet_url}"
+        )] + SCIENCE_TWEETS
     },
     "BillNye": {
-        "tweet_templates": SCIENCE_TWEETS,
+        "tweet_templates": [(
+            "Hey @{lover_username1} @{lover_username2} your cosmic fandom for "
+            "science and Bill Nye might imply a bit more chemistry {tweet_url}"
+        )] + SCIENCE_TWEETS
     },
     # "jennschiffer": {
     #     "tweet_templates": [(
