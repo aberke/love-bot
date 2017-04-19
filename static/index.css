@@ -29,6 +29,11 @@ body {
 	background-color: #E0FFFF;
 }
 
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
 a {
 	cursor: pointer;
 	color: #0084b4;
@@ -190,6 +195,8 @@ section#testimonials {
 #celeb-application .sub-title {
 	display: inline-block;
 	padding: 0 20px;
+}
+#celeb-application .sub-title, #non-famous-contributions h2 {
 	border-bottom: 3px solid #FDD017;
 }
 
